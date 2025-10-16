@@ -32,7 +32,7 @@ function HomePage() {
             Inbox triage
           </h2>
           <p className="text-sm text-slate-500">
-            Swipe right to keep or swipe left to dismiss, Tinder-style.
+            Swipe right to keep or swipe left to dismiss
           </p>
         </div>
         <div className="flex gap-3">

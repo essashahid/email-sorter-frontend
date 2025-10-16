@@ -4,7 +4,7 @@ import { useAuth } from "../context/AuthContext.jsx";
 import EmailContent from "./EmailContent.jsx";
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://email-sorter-server.vercel.app";
+  import.meta.env.VITE_API_BASE_URL || "https://email-sorter-backend.vercel.app";
 
 function EmailCard({ email, onGood, onBad, remaining }) {
   const { user } = useAuth();

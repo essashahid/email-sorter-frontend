@@ -13,7 +13,7 @@ import { useAuth } from "./AuthContext.jsx";
 const EmailContext = createContext(null);
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "https://email-sorter-server.vercel.app";
+  import.meta.env.VITE_API_BASE_URL || "https://email-sorter-backend.vercel.app";
 
 const DEFAULT_FILTERS = {
   maxResults: "",
